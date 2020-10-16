@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: ghostwhite;
+  cursor: pointer;
+}
+
+.App {
+  font-family: "Barlow", monospace;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-name: move;
+  animation-duration: 0.5s;
+}
+
+@keyframes move {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#clock {
+  border-radius: 20px;
+  width: 350px;
+  height: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(251, 251, 255);
+  box-shadow: 0px 0px 20px 1px rgb(196, 195, 195);
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 20px 0;
+  color: grey;
+}
+
+#counter {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.module {
+  border: solid 2px lightgrey;
+  width: 150px;
+  margin: 5px;
+  height: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+}
+
+.counter-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+.counter-button {
+  margin: 15px;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 150%;
+  background: white;
+}
+
+.counter-button:focus {
+  outline: none;
+}
+
+#timer {
+  border: solid 2px lightgrey;
+  border-radius: 10px;
+  margin: 10px;
+  height: 60%;
+  width: 310px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+#timer-label {
+  width: 200px;
+  background: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#time-left {
+  font-size: 500%;
+}
+
+.timer-button {
+  padding: 5px;
+  margin: 5px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Barlow", monospace;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+.timer-button:focus {
+  outline: none;
+}
+
+#start_stop {
+  background: rgb(83, 223, 153);
+}
+
+#reset {
+  background: lightcoral;
+}
+
+#credit {
+  padding: 20px;
+  font-family: "Barlow", san-serif;
+  color: dimgrey;
+}
+
+a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
