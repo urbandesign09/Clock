@@ -11,7 +11,6 @@ export default function App() {
   console.log(ImgStr);
   return (
     <div className="App" style={{ backgroundImage: ImgStr }}>
-      <div className="Blank-Side"></div>
       <div className="Function-Side">
         <Title />
         <Clock />
