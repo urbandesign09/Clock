@@ -8,7 +8,6 @@ import memegirl from "../assets/memegirl.jpg";
 //create a light and dark mode here
 export default function App() {
   const ImgStr = 'url("' + memegirl + '")';
-  console.log(ImgStr);
   return (
     <div className="App" style={{ backgroundImage: ImgStr }}>
       <div className="Function-Side">
