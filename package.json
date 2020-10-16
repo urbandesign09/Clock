@@ -1,7 +1,7 @@
 {
-  "name": "255-clock-version-3",
+  "name": "pomodoro-clock",
   "version": "1.0.0",
-  "description": "25+5 Clock for FreeCodeCamp",
+  "description": "25 + 5 Clock for FreeCodeCamp",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
