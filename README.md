@@ -1,6 +1,6 @@
-# Clock
+# Pomodoro Clock
 
 Created with CodeSandbox
 
-Pomodoro Clock Created for FreeCodeCamp
-Edbert Cheng
+<br> Created for FreeCodeCamp
+<br> Edbert Cheng
