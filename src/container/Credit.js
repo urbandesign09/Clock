@@ -7,8 +7,8 @@ function Credit() {
         Designed and Coded by{" "}
         <a
           href="https://codepen.io/urbandesign09"
+          rel="noopener noreferrer"
           target="_blank"
-          rel="noopener noreferer"
         >
           Edbert Cheng
         </a>
